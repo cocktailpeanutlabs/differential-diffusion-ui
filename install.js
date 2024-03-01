@@ -42,14 +42,15 @@ module.exports = async (kernel) => {
       params: {
         venv: "app/env",
         message: [
-          "pip install -r depth-requirements.txt"
+          "pip install -r depth-requirements.txt",
+          "pip install transformers"
         ],
       }
-//    }, {
-//      method: "fs.share",
-//      params: {
-//        venv: "app/env"
-//      }
+    }, {
+      method: "fs.share",
+      params: {
+        venv: "app/env"
+      }
     }, {
       method: "notify",
       params: {
