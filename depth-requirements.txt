@@ -1,0 +1,4 @@
+gradio_imageslider
+gradio==4.14.0
+opencv-python
+huggingface_hub
