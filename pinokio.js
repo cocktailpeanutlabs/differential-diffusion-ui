@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
   version: "1.2",
-  title: "differential-diffusion",
+  title: "differential-diffusion-ui",
   description: "Differential Diffusion modifies an image according to a text prompt, and according to a map that specifies the amount of change in each region https://differential-diffusion.github.io/",
   icon: "icon.png",
   menu: async (kernel) => {
